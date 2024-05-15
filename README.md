@@ -29,7 +29,13 @@ The project is a Java-based application that demonstrates CRUD (Create, Read, Up
 
 ## Code Structure
 - **'HibernateTest.java'**: Main class containing the logic for handling user input and performing CRUD operations.
-- **'Students.java'**: Entity class representing the Student table in the database.
+- **'Student.java'**: Entity class representing the Student table in the database.
 - **'HibernateUtil.java'**: Utility class for configuring and providing Hibernate sessions.
 
-- 
+## Common Issues
+- **Database Connection Errors**: Ensure that the database is running and the connection details in hibernate.cfg.xml are correct.
+- **Transaction Management**: Ensure transactions are properly committed and rolled back in case of errors.
+- **Entity Mapping**: Ensure the Student class is correctly mapped and annotated with Hibernate/JPA annotations.
+
+## Contact
+For any questions or feedback, please contact leowidj@gmail.com.
